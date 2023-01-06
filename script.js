@@ -22,3 +22,4 @@ if(html.classList.contains('light')) {
   img.setAttribute("alt", "André tocando guitarra na praia")
 }
 }
+
