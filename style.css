@@ -59,7 +59,8 @@ body * {
   /* display: block; */
   width: 112px;
   height: 112px;
-  border-radius: 55px;
+  border-radius: 50%;
+  object-fit: cover;
   /* margin: auto;  //Essa margin: auto só está funcionando pq o display está block, pois o elemento img é um elemento inline e não consegue-se aplicar margin auto. */
 }
 

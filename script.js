@@ -15,10 +15,10 @@ html.classList.toggle("light")
 const img = document.querySelector('#profile img')
 
 if(html.classList.contains('light')) {
-  img.setAttribute('src', './assets/avatar2.jpg')
+  img.setAttribute('src', './assets/working.jpg')
   img.setAttribute('alt', 'André de óculos no carro')
 } else {
-  img.setAttribute("src", "./assets/avatar.jpg")
+  img.setAttribute("src", "./assets/darkmode.jpg")
   img.setAttribute("alt", "André tocando guitarra na praia")
 }
 }
